@@ -24,6 +24,7 @@ import java.net.InetSocketAddress;
 import java.net.NetworkInterface;
 
 /**
+ * 通过 UDP 读写数据。
  * A UDP/IP {@link Channel}.
  */
 public interface DatagramChannel extends Channel {

@@ -20,6 +20,8 @@ import io.netty.channel.ServerChannel;
 import java.net.InetSocketAddress;
 
 /**
+ * 一个服务端用来监听新进来的连接的 TCP 的 Channel 。
+ *  对于每一个新进来的连接，都会创建一个对应的 SocketChannel 。
  * A TCP/IP {@link ServerChannel} which accepts incoming TCP/IP connections.
  */
 public interface ServerSocketChannel extends ServerChannel {

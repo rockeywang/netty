@@ -42,6 +42,7 @@ public abstract class AbstractDiskHttpData extends AbstractHttpData {
 
     private File file;
     private boolean isRenamed;
+    //从文件中，读写数据。
     private FileChannel fileChannel;
 
     protected AbstractDiskHttpData(String name, Charset charset, long size) {

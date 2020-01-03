@@ -20,6 +20,7 @@ import io.netty.channel.Channel;
 import java.net.InetSocketAddress;
 
 /**
+ * 一个客户端用来发起 TCP 的 Channel
  * A TCP/IP socket {@link Channel}.
  */
 public interface SocketChannel extends DuplexChannel {

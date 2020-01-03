@@ -24,6 +24,7 @@ import java.net.SocketAddress;
 /**
  * An endpoint in the local transport.  Each endpoint is identified by a unique
  * case-insensitive string.
+ * @author wangchao
  */
 public final class LocalAddress extends SocketAddress implements Comparable<LocalAddress> {
 

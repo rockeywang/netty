@@ -371,6 +371,10 @@
     <module>transport-blockhound-tests</module>
     <module>microbench</module>
     <module>bom</module>
+    <module>rpc-client</module>
+    <module>rpc-api</module>
+    <module>rpc-server</module>
+    <module>netty-demo</module>
   </modules>
 
   <dependencyManagement>

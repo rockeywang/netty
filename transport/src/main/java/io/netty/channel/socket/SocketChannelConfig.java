@@ -183,6 +183,13 @@ public interface SocketChannelConfig extends ChannelConfig {
     @Override
     SocketChannelConfig setMessageSizeEstimator(MessageSizeEstimator estimator);
 
+
+    /**
+     * 设置一个通道的可写水平。可以设置高水位和低水位。
+     * 当通道待发送数据的总大小超过高水位时通道处于不可写状态。当通道待发送数据的的总大小小于低水位时，通道转变为可写状态。
+     * @param writeBufferWaterMark
+     * @return
+     */
     @Override
     SocketChannelConfig setWriteBufferWaterMark(WriteBufferWaterMark writeBufferWaterMark);
 
